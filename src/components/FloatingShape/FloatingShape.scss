@@ -1,0 +1,39 @@
+.floating-shape {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  z-index: 2;
+  &--square {
+    border: 2px solid var(--color);
+  }
+  &--square-solid {
+    background-color: var(--color);
+  }
+  &--triangle {
+    svg {
+      fill: var(--color);
+    }
+  }
+  &--triangle-solid {
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 30px solid var(--color);
+  }
+  &--diamond {
+    border: 1px solid var(--color);
+  }
+  &--diamond-solid {
+    background-color: var(--color);
+    transform: rotate(45deg);
+  }
+  &--circle {
+    border: 1px solid var(--color);
+    border-radius: 50%
+  }
+  &--circle-solid{
+    background: var(--color);
+    border-radius: 50%
+  }
+}

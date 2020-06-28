@@ -1,0 +1,32 @@
+title: Work
+content:
+  - title: Meet Omar
+    tags: '[‘#React’, ‘#JS’, ‘#SASS’, ‘#HTML’]'
+    image: work/meet-omar.png
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+    url: https://omarthetroll.stagesr.com/
+  - title: Textron Systems
+    tags: '[‘#Drupal’, ‘#PHP’, ‘#Vue’, ‘#Twig’, ‘#Scss’]'
+    image: work/textron-systems.png
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+    url: https://www.textronsystems.com/
+  - title: The Oven
+    image: work/the-oven.png
+    tags: '[‘#Jekyll’, ‘#JS’, ‘#SASS’]'
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+    url: https://theoven-lincoln.com/
+  - title: Nebraska State Fair
+    tags: '[‘#Drupal’, ‘#PHP’, ‘#Vue’, ‘#Twig’, ‘#SASS’]'
+    image: work/nsf.png
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+    url: https://statefair.org/
+  - title: Amvac
+    tags: '[‘#Drupal’, ‘#PHP’, ‘#Vue’, ‘#Twig’, ‘#Scss’]'
+    image: work/amvac.png
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+    url: https://www.amvac.com/
+  - title: Geisler Roofing
+    tags: '[‘#Jekyll’, ‘#JS’, ‘#SASS’]'
+    image: work/geisler.png
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+    url: https://geislerroofing.com/

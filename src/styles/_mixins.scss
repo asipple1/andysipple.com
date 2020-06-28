@@ -1,0 +1,29 @@
+/* --------------------------
+ * RESPONSIVE MIXINS
+ * -------------------------- */
+
+ $respond-to-queries: (
+  smartphone-small: 'all and (max-width: 400px)',
+  smartphone: 'all and (max-width: 600px)',
+  tablet-portrait: 'all and (max-width: 768px)',
+  tablet-medium: 'all and (max-width: 880px)',
+  tablet: 'all and (max-width: 1024px)',
+  desktop-small: 'all and (max-width: 1150px)',
+  desktop-medium: 'all and (max-width: 1240px)',
+  desktop-large: 'all and (min-width: 1680px)'
+ );
+ 
+ @mixin respond-to($query) {
+  $media_query: $query;
+  @if map-has-key($respond-to-queries, $query) {
+    $media_query: map-get($respond-to-queries, $query);
+  }
+ 
+  @media #{$media_query} {
+    @content;
+  }
+ }
+
+ @mixin above-grid {
+   z-index: 10;
+ }

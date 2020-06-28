@@ -1,0 +1,62 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  background-color: transparent;
+  visibility: hidden;
+  
+  z-index: 10;
+  @include respond-to(tablet) {
+    grid-template-columns: repeat(6, 1fr);
+  }
+  &__child {
+    position: relative;
+    flex: 1;
+    display: block;
+  }
+  &__container {
+    height: 100%;
+    position: relative;
+    padding: 20px;
+    @include respond-to(tablet) {
+      padding: 20px 0;
+    }
+  }
+  &__line {
+    position: absolute;
+    right: 0;
+    height: 100;
+    width: 1px;
+    background-color: rgba($color-white, 0.06);
+  }
+  .nav-item {
+    position: relative;
+    display: block;
+    font-family: $font-heading;
+    text-transform: uppercase;
+    z-index: 10;
+    &:hover, &:focus {
+      cursor: pointer;
+      color: $color-pink;
+    }
+  }
+}
+
+.sidebar {
+  &__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  &__logo {
+    position: relative;
+    transform: translate(-400px, 0px);
+  }
+  &__social-media {
+
+  }
+}

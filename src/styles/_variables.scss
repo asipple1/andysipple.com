@@ -1,0 +1,22 @@
+$color-white: #dcdde1;
+$color-black: #2f3640;
+$color-blue: #30728C;
+$color-blue-dark: #001F32;
+$color-blue-lite: #88B0BF;
+$color-pink: #E77470;
+$color-yellow: #F2962F;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@700&family=Montserrat:wght@200;600&display=swap');
+
+
+$font-heading: 'Hind Siliguri', sans-serif;
+$font-body: 'Montserrat', sans-serif;
+
+
+
+.animation-target {
+  -webkit-animation: animation 1000ms linear both;
+  animation: animation 1000ms linear both;
+}
+

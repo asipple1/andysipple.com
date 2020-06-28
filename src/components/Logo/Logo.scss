@@ -1,0 +1,24 @@
+.logo {
+  font-family: $font-heading;
+  font-weight: bold;
+  width: 65px;
+  height: 65px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: 0.8s all ease;
+  svg {
+    width: 65px;
+    height: 65px;
+    fill: $color-white;
+    transition: 0.4s;
+  }
+  &:hover, &:active {
+    cursor: pointer;
+    svg {
+      cursor: pointer;
+      fill: $color-pink;
+    }
+  }
+}
