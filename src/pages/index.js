@@ -24,19 +24,19 @@ const IndexPage = () => {
     introAnimation();
     tl.play();
     window.addEventListener('resize', debounce(() => {
-      if (window.innerWidth != windowWidth) {
+      if (window.innerWidth !== windowWidth) {
         windowWidth = window.innerWidth;
         tl.kill();
         introAnimation();
         tl.play();
       }
     }, 500));
-  }, []);
+  }, [tl]);
 
   const introAnimation = () => {
     tl.fromTo('.header__logo', {x: -400}, {x: 0, duration: 0.8 });
     tl.fromTo(['.grid__line'], 0.6, {height: 0}, {height: '100%', stagger: { amount: -1.5, from: 'center'}}, '<');
-    tl.fromTo(['.header__link'], 0.6, {y: -800}, {y: 0, stagger: { amount: 0.2}}, "<");
+    tl.fromTo(['.header__link'], 0.6, {y: -800}, {y: 0,  autoAlpha: 1, stagger: { amount: 0.2,}}, "<");
     tl.fromTo(['.sidebar__social-media'], 0.4, {y: 2000, autoAlpha: 0}, {y: 0, autoAlpha: 1, stagger: { amount: 0.1}}, "<");
     tl.fromTo(['.sidebar__social-media a'], 0.4, {y: 2000, autoAlpha: 0}, {y: 0, autoAlpha: 1, stagger: { amount: 0.3}}, "<");
     tl.fromTo('.hero-section__brick', 1, {xPercent: -101},{xPercent: 101, stagger: { amount: 0.2}}, '<+0.5')
