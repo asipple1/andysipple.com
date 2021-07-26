@@ -4,11 +4,16 @@ content:
     tags: '[‘#React’, ‘#JS’, ‘#SASS’, ‘#HTML’, ‘#AudioAPI’]'
     image: work/meet-omar.png
     description: 'Meetomar.com is a story about a troll roaming the land to discover his forever home under a bridge in Omaha Nebraska. The challenge was to bring a digital interactive experience for meetomar book online. My role was the lead web developer @ Swanson Russell with directions from the lead UX.'
-    url: https://omarthetroll.stagesr.com/
+    url: https://www.omarthetroll.com/
   - title: Textron Systems
     tags: '[‘#Drupal’, ‘#PHP’, ‘#Vue’, ‘#Twig’, ‘#Scss’]'
     image: work/textron-systems.png
     description: 'Textron Systems is known for it innovative defense, government and aerospace technologies and services. My role was lead developer @ Swanon Russell.'
+    url: https://www.textronsystems.com/
+  - title: Howe & Howe
+    tags: '[‘#Drupal’, ‘#PHP’, ‘#Vue’, ‘#Twig’, ‘#Scss’]'
+    image: work/howeandhowe.png
+    description: 'Pride, purpose, truth and mission. Howe & Howe, based in Waterboro, Maine, was born from the bold vision of Mike and Geoff Howe. Together, they built vehicles straight from their imaginations and made them reality – bringing them to customers around the globe. The Howe & Howe team shares a calling to always create the newer, better and stronger. My role was lead developer @ Swanon Russell.'
     url: https://www.textronsystems.com/
   - title: The Oven
     image: work/the-oven.png
@@ -16,17 +21,22 @@ content:
     description: "The Oven is an Indian food restaurant in Lincoln and Omaha Nebraska with multiple locations. One of the biggest things I am proud of this site was converting the menu from PDF to online format. This was great for the client since they're constantly adding and removing items from the menu. This was a freelance project where I was able to be the designer and lead web developer."
     url: https://theoven-lincoln.com/
   - title: Nebraska State Fair
-    tags: '[‘#Drupal’, ‘#PHP’, ‘#Vue’, ‘#Twig’, ‘#SASS’]'
+    tags: '[‘#Drupal’, ‘#PHP’, ‘#Vue’, ‘#Twig’, ‘#SCSS’]'
     image: work/nsf.png
     description: 'Nebraska State Fair is the largest fair in Nebraska and only happens once a year! One thing I am proud about on this site is the mobile menu. Used Vue.js and Drupal rest menu API to build out a dynamic menu. My role was lead developer @ Swanson Russell.'
     url: https://statefair.org/
   - title: Amvac
-    tags: '[‘#Drupal’, ‘#PHP’, ‘#Vue’, ‘#Twig’, ‘#Scss’]'
+    tags: '[‘#Drupal’, ‘#PHP’, ‘#Vue’, ‘#Twig’, ‘#SCSS’]'
     image: work/amvac.png
-    description: 'Amvac is a chemical company focused in the agriculture space with an international presence. One major task given to me during the build was to figure out a way to fetch all the data needed for the home page marquee product filtering. My role was developer following the lead of the lead backend developer and lead frontend developer.'
+    description: 'Amvac is a chemical company focused in the agriculture space with an international presence. One major task given to me during the build was to build a custom Drupal 8 module to fetch product data needed for the home page marquee product filtering. My role was developer following the lead of the lead backend developer and lead frontend developer.'
     url: https://www.amvac.com/
+  - title: KRSL
+    tags: '[‘#Drupal’, ‘#PHP’, ‘#Vue’, ‘#Twig’, ‘#SCSS’'
+    image: work/krsl.png
+    description: 'Small town radio station needing a web presence to reach their audience. Challenge was setting up an AD system to give complete control to the editors of where/when ads are displayed on the site. Using Drupal 8 as the CMS and Vue.js hooked up and an Drupal views API to pull in ads dynamically. I was the lead UX and lead developer.'
+    url: https://www.krsl.com/
   - title: Geisler Roofing
-    tags: '[‘#Jekyll’, ‘#JS’, ‘#SASS’]'
+    tags: '[‘#Jekyll’, ‘#JS’, ‘#SCSS’]'
     image: work/geisler.png
     description: 'Geisler is a roofing company in Kansas that need an online presence to reach more customers. Used targeted Google ads to drive potential customers to the site. This was a freelance project in collaboration with ION design co. My role was UX and Developer.'
     url: https://geislerroofing.com/
