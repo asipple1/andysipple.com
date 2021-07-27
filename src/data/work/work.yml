@@ -1,23 +1,23 @@
 title: Work
 content:
   - title: Meet Omar
-    tags: '[‘#React’, ‘#JS’, ‘#SASS’, ‘#HTML’, ‘#AudioAPI’]'
+    tags: '[‘#React’, ‘#JS’, ‘#SCSS’, ‘#HTML’, ‘#AudioAPI’]'
     image: work/meet-omar.png
     description: 'Meetomar.com is a story about a troll roaming the land to discover his forever home under a bridge in Omaha Nebraska. The challenge was to bring a digital interactive experience for meetomar book online. My role was the lead web developer @ Swanson Russell with directions from the lead UX.'
     url: https://www.omarthetroll.com/
   - title: Textron Systems
-    tags: '[‘#Drupal’, ‘#PHP’, ‘#Vue’, ‘#Twig’, ‘#Scss’]'
+    tags: '[‘#Drupal’, ‘#PHP’, ‘#Vue’, ‘#Twig’, ‘#SCSS’]'
     image: work/textron-systems.png
     description: 'Textron Systems is known for it innovative defense, government and aerospace technologies and services. My role was lead developer @ Swanon Russell.'
     url: https://www.textronsystems.com/
   - title: Howe & Howe
-    tags: '[‘#Drupal’, ‘#PHP’, ‘#Vue’, ‘#Twig’, ‘#Scss’]'
+    tags: '[‘#Drupal’, ‘#PHP’, ‘#Vue’, ‘#Twig’, ‘#SCSS’]'
     image: work/howeandhowe.png
     description: 'Pride, purpose, truth and mission. Howe & Howe, based in Waterboro, Maine, was born from the bold vision of Mike and Geoff Howe. Together, they built vehicles straight from their imaginations and made them reality – bringing them to customers around the globe. The Howe & Howe team shares a calling to always create the newer, better and stronger. My role was lead developer @ Swanon Russell.'
-    url: https://www.textronsystems.com/
+    url: https://www.howeandhowe.com/
   - title: The Oven
     image: work/the-oven.png
-    tags: '[‘#Jekyll’, ‘#JS’, ‘#SASS’]'
+    tags: '[‘#Jekyll’, ‘#JS’, ‘#SCSS’]'
     description: "The Oven is an Indian food restaurant in Lincoln and Omaha Nebraska with multiple locations. One of the biggest things I am proud of this site was converting the menu from PDF to online format. This was great for the client since they're constantly adding and removing items from the menu. This was a freelance project where I was able to be the designer and lead web developer."
     url: https://theoven-lincoln.com/
   - title: Nebraska State Fair
