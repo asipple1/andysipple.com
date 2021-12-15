@@ -3,6 +3,7 @@ module.exports = {
     title: `Andy Sipple`,
     description: `Professional problem solver for the digital world.`,
     author: `Andy Sipple`,
+    image: `https://andysipple.com/images/andysippleOpenGraph.jpg`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -36,15 +37,15 @@ module.exports = {
       resolve: `gatsby-plugin-sass`,
       options: {
         data: `@import "${__dirname}/src/styles/styles";`,
-      }
+      },
     },
     {
-      resolve: 'gatsby-plugin-react-svg',
+      resolve: "gatsby-plugin-react-svg",
       options: {
         rule: {
-          include: `${__dirname}/src/images/svgs/`
-        }
-      }
+          include: `${__dirname}/src/images/svgs/`,
+        },
+      },
     },
     `gatsby-transformer-yaml`,
     {
